@@ -52,7 +52,7 @@
                 .col.mb-3.mb-sm-0
                   h3.mb-1 ¿Qué forma de pagos existen?
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('https://www.google.com/url?q=https://www.youtube.com/watch?v%3DNMcQatosBOo&sa=D&source=docs&ust=1637553326079000&usg=AOvVaw0msid3GyvWI9ar8Zjmus9u')" target="_blank")
+                  a.boton.color-acento-botones(href='https://www.google.com/url?q=https://www.youtube.com/watch?v%3DNMcQatosBOo&sa=D&source=docs&ust=1637553326079000&usg=AOvVaw0msid3GyvWI9ar8Zjmus9u' target="_blank")
                     span Ver video
                     i.fas.fa-link
         p.mb-3.text-bold  A continuación, se abordarán diferentes tipos de medios de pago:
@@ -380,7 +380,110 @@
       i.fas.fa-check
       | &nbsp;<b>En los billetes antiguos se pueden encontrar los siguientes elementos de seguridad a tener en cuenta:</b>
 
+    .tarjeta.bg-sliders.p-5.mb-5.shadow-box
+      SlyderA
+        .row
+          .col-md-5.mb-4.mb-md-0
+            ul.lista-ul
+              li
+                i.fas.fa-check 
+                p Las áreas con relieve en la mayoría de los casos, son las zonas más oscuras del billete.
+              li
+                i.fas.fa-check 
+                p Al exponer el billete a la luz ultravioleta se pueden apreciar en el hilo de seguridad color plateado la palabra “COLOMBIA” aparece en color amarillo sobre fondo violeta  y el texto “50 MIL PESOS”.<br><br> También los números de serie del billete aparecen en colores verde y rojo.                 
+              li
+                i.fas.fa-check 
+                p Al exponer el billete a la luz ultravioleta se puede apreciar que el hilo de seguridad reacciona en color verde y que en la parte superior del árbol se ve en el color naranja. Los extremos superior e inferior del billete se observan en color amarillo.         
+          .col-md-7
+            figure
+              img.mb-2(src='@/assets/curso/t1-s1.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
 
+        .row
+          .col-md-5.mb-4.mb-md-0
+            ul.lista-ul
+              li
+                i.fas.fa-check 
+                p Las áreas con relieve, en la mayoría de los casos, son las zonas más oscuras del billete.
+              li
+                i.fas.fa-check 
+                p Al exponer el billete a la luz ultravioleta se puede apreciar que el  hilo de seguridad se ve en colores amarillo, azul y rojo. Con mayor nitidez en las secciones que salen del papel. La denominación “20000” y el texto “VEINTE MIL PESOS” parecen en dos sellos en el costado izquierdo, así como en sentido vertical la denominación “20000” en el centro del billete, los cuales reaccionan en color amarillo.             
+
+          .col-md-7
+            figure
+              img.mb-2(src='@/assets/curso/t1-s2.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+        .row
+          .col-md-5.mb-4.mb-md-0
+            ul.lista-ul
+              li
+                i.fas.fa-check 
+                p Las áreas con relieve, en la mayoría de los caos, son las zonas más oscuras del billete.
+              li
+                i.fas.fa-check 
+                p Los dos hilos de seguridad están ubicados en posición vertical. Visto por el anverso, el hilo de la derecha es transparente y a la contraluz permite leer el texto “BRC 10000”. El de la izquierda no es transparente y se aprecia como opaco a contraluz.          
+              li
+                i.fas.fa-check 
+                p Ubicada en el extremo izquierdo del billete a contraluz se observa la imagen de la heroína, con los mismos rasgos del retrato utilizado como motivo principal, a la derecha se aprecia la marca de agua resaltada formada por las letras P y S.
+          .col-md-7
+            figure
+              img.mb-2(src='@/assets/curso/t1-s3.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+
+
+    p.mb-5
+      i.fas.fa-check
+      | &nbsp;<b>En los nuevos billetes también se encuentran elementos de seguridad como los siguientes:</b>
+
+    .tarjeta.bg-sliders2.p-5.mb-5.shadow-box
+      SlyderA
+        .row.justify-content-center.mb-4
+          .col-md-12.mb-4
+            p.higlighted-text Imágenes y textos en relieve y elementos en sistema braille para personas con discapacidad visual.
+          .col-md-8
+            figure
+              img.mb-2(src='@/assets/curso/t1-s4.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+
+        .row.justify-content-center.mb-4
+          .col-md-12.mb-4
+            p.higlighted-text2 Imágenes coincidentes, efectos en la cinta de seguridad y marcas de agua a trasluz.
+          .col-md-8
+            figure
+              img.mb-2(src='@/assets/curso/t1-s5.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+
+        .row.justify-content-center.mb-4
+          .col-md-12.mb-4
+            p.higlighted-text Efectos de color y movimiento, así como imágenes ocultas.
+          .col-md-8
+            figure
+              img.mb-2(src='@/assets/curso/t1-s6.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+
+        .row.justify-content-center.mb-4
+          .col-md-12.mb-4
+            p.higlighted-text2 Reacción a luz ultravioleta.
+          .col-md-8
+            figure
+              img.mb-2(src='@/assets/curso/t1-s7.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+
+        .row.justify-content-center.mb-4
+          .col-md-12.mb-4
+            p.higlighted-text Microtextos para observar con lupa.
+          .col-md-8
+            figure
+              img.mb-2(src='@/assets/curso/t1-s8.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
+
+        .row.justify-content-center.mb-4
+          .col-md-12.mb-4
+            p.higlighted-text2 Variación de color.
+          .col-md-8
+            figure
+              img.mb-2(src='@/assets/curso/t1-s9.png', alt='elementos de seguridad en billetes')
+              figcaption (Banco de la República, s.f.)
 
 
 
