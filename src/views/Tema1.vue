@@ -234,26 +234,45 @@
 
       .row.mb-5.justify-content-center
         .col-lg-5
-          .titulo-quinto.color-acento-botones
+          .titulo-quinto.color-primario
             .h4 Anverso
-          ImagenInfografica.color-primario.mb-5(data-aos='flip-right')
+          ImagenInfografica.color-primario.mb-5.customDots(data-aos='flip-right')
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/t1-info1.svg', alt='Ejemplo de tarjeta débito - cara frontal')
-            .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-              .h5.mb-2 titulo
-              p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus    
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="50%" y="10%" numero="1")
+              p Apariencia general de la tarjeta con buen brillo, sin zonas opacas, colores y logotipos de la entidad o sistema bien definido.   
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="8%" y="30%" numero="2")
+              p Chip de seguridad
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="35%" y="30%" numero="3")
+              p Icono <i>contactless</i>              
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="5%" y="60%" numero="6")
+              p Número de la tarjeta
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="5%" y="73%" numero="4")
+              p Fecha de vencimiento
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="5%" y="85%" numero="5")
+              p Titular de la tarjeta
+            .tarjeta.color-acento-botones.p-3.shadow-box(x="85%" y="73%" numero="5")
+              p Franquicia de la tarjeta
+
 
         .col-lg-5
           .titulo-quinto.color-secundario
             .h4 Reverso
-          ImagenInfografica.color-secundario.mb-5(data-aos='flip-left')
+          ImagenInfografica.color-secundario.customDots.mb-5(data-aos='flip-left')
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/t1-info2.svg', alt='Ejemplo de tarjeta débito - cara posterior')
-            .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-              .h5.mb-2 titulo
-              p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus    
+            .tarjeta.color-acento-botones.p-3(x="5%" y="25%" numero="1")
+              p Banda magnética, sin deterioros o levantada. 
+            .tarjeta.color-acento-botones.p-3(x="5%" y="50%" numero="2")
+              p Panel de firma, no es una cinta pegada sobre la tarjeta. No se desprende al raspar con la uña.
+            .tarjeta.color-acento-botones.p-3(x="70%" y="50%" numero="3")
+              p Código de seguridad 
+            .tarjeta.color-acento-botones.p-3(x="50%" y="70%" numero="4")
+              p Datos de contacto de la entidad que emitió la tarjeta. 
+            .tarjeta.color-acento-botones.p-3(x="5%" y="88%" numero="5")
+              p Red de cajeros en los que puede retirar el dinero disponible en su cuenta de ahorros.
 
       .row.mb-5.justify-content-center
         .col-lg-6
@@ -284,15 +303,25 @@
 
       .row.justify-content-center
         .col-lg-5
-          .titulo-quinto.color-acento-botones
+          .titulo-quinto.color-secundario
             .h4 Anverso
-          ImagenInfografica.color-primario.yellowDots.mb-5(data-aos='flip-right')
+          ImagenInfografica.color-secundario.customDots.mb-5(data-aos='flip-right')
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/t1-info3.svg', alt='Ejemplo de tarjeta crédito - cara frontal')
-            .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-              .h5.mb-2 titulo
-              p 
+            .tarjeta.color-acento-botones.p-3(x="50%" y="10%" numero="1")
+              p Apariencia general del plástico, buen brillo, sin zonas opacas, colores y logotipos de la entidad o sistema bien definidos. 
+            .tarjeta.color-acento-botones.p-3(x="5%" y="55%" numero="2")
+              p El número impreso debe coincidir con el realzado, no debe haber líneas o figuras arriba o abajo del realce, como tratando de ocultar otro número.
+            .tarjeta.color-acento-botones.p-3(x="85%" y="50%" numero="3")
+              p El realce debe estar en perfecto estado de brillo, forma y nitidez, especialmente en los 4 últimos números.
+            .tarjeta.color-acento-botones.p-3(x="90%" y="70%" numero="4")
+              p Holograma nítido, no se debe desprender o pelar con el paso de la uña, la imagen es bien definida.
+            .tarjeta.color-acento-botones.p-3(x="90%" y="90%" numero="6")
+              p Logotipos, (VISA, MasterCard, Diners Club, Credencial, American Expres), con características y colores de contornos muy definidos. No se desprende al frotarlo con la uña.           
+            .tarjeta.color-acento-botones.p-3(x="50%" y="95%" numero="5")
+              p Al reverso de las tarjetas está el código CVV o CVC que consta de 3 o 4 números y se utiliza como método de seguridad en transacciones en las que la tarjeta no está físicamente presente, como en compras por teléfono o Internet.           
+
 
     h3.titulo-tercero 
       i.fas.fa-angle-right 
