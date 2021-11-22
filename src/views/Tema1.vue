@@ -320,13 +320,67 @@
           li
             i.fas.fa-check
             p.mb-0  Autorizado por Fenalcheque $20.000.   
+    .row.mb-5.justify-content-center
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/t1-i10.jpg' alt='una tarjeta crédito')             
+      .col-lg-6
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Características")
+            .col-md-12.mb-4.mb-md-0
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Elaborado a mano con bolígrafo.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Girado a nombre del almacén donde se esté haciendo la compra.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Firmado por la persona que lo elabora.
 
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/t1-i10.jpg' alt='una tarjeta crédito')             
-        .col-lg-6
-          //-- Aqui viene el accordeon
-        
+          .row(titulo="Características de seguridad")
+            .col-md-12.mb-4.mb-md-0
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | La calidad del papel.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Nombre del banco impreso en el cheque.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Impresión nítida del número del cheque y el número de cuenta en algunos cheques que aún la traen.
+
+          .row(titulo="Requisito de diligenciamiento")
+            .col-md-12.mb-4.mb-md-0
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Elaborado con bolígrafo, sin tachones o enmendaduras.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Girados a nombre del almacén, Éxito, Ley o Pomona.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Cantidad igual en número y letras.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  | Ciudad y fecha completa (fecha del día en que lo estás recibiendo).
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 5
+                  | Firma autógrafa del girador no impresa.            
 
     .row.mb-5.justify-content-center
       .col-lg-6
@@ -358,11 +412,69 @@
             i.fas.fa-angle-double-right
             | &nbsp;Cheque de empresa (nómina)
         p.mb-5  El valor de la compra debe ser mínimo el 10% del valor del cheque, porcentaje establecido por la compañía.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/t1-i12.jpg' alt='imagen decorativa')             
-        .col-lg-6
-          //-- Aqui viene el accordeon
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/t1-i12.jpg' alt='imagen decorativa')             
+      .col-lg-6
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Características")
+            .col-md-12.mb-4.mb-md-0
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Tiene sello de la empresa que lo suministra.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Girado a nombre de la persona que lo presenta.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Elaborado con impresora.
+          .row(titulo="Características de seguridad")
+            .col-md-12.mb-4.mb-md-0
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | La calidad del papel.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Nombre del banco impreso en el cheque.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Número de la cuenta impresa en el cheque.
+                  
+          .row(titulo="Requisito de diligenciamiento")
+            .col-md-12.mb-4.mb-md-0
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Cantidad igual en número y letras.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Ciudad y fecha completa.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Firma del girador.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  | Sin tachones o enmendaduras.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 5
+                  | La autorización de recibo.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 6
+                  | La autorización para recibir estos cheques la debe realizar siempre el supervisor o el encargado de esta labor, utilizando el sistema Pressman (o el que aplique) que permita verificar las cuentas y las firmas de los cheques.
 
 
     h3.titulo-tercero 
@@ -485,26 +597,13 @@
               img.mb-2(src='@/assets/curso/t1-s9.png', alt='elementos de seguridad en billetes')
               figcaption (Banco de la República, s.f.)
 
-
-
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

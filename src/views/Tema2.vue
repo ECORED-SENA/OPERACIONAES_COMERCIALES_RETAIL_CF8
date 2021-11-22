@@ -127,34 +127,34 @@ export default {
         titulo:
           'No contar con un sistema automatizado para los ingresos o egresos de la caja, como lo son el registro de ventas, compras y demás costos o pagos.',
         texto: '',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/s1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo:
           'Recibir distintos documentos de pago que se combinan entre sí para el monto total de una compra.',
         texto: '',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/s2.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo:
           'Mover el dinero de la caja con el fin de pagar, bien sea a proveedores o pagar cualquier otro gasto del establecimiento.',
         texto: '',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/s3.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo:
           'Tener varias cajas con una gran cantidad de operaciones en el día.',
         texto: '',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/s4.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'No tener un control de facturación.',
         texto: '',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/s5.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
     ],
