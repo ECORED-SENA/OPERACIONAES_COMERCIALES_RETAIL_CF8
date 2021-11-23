@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t1-i1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 El propósito de conocer los protocolos de cierre de caja es contribuir a realizar un correcto cierre de caja y entrega del puesto de pago al terminar la jornada laboral, teniendo en cuenta que <b>deben hacer entrega del dinero y de la documentación que soporte las transacciones u operaciones que se hayan realizado durante el día</b>. A continuación, observe el siguiente video en el que tendrá más información sobre el tema a desarrollar:
+            p.mb-0 Los protocolos en esta labor se desarrollan cotidianamente en el instante en el que se va a cerrar el <i>retail</i> o también parcialmente cuando se presentan cambios de jornadas o turno en los cajeros, con la finalidad de conocer si el dinero o documentos semejantes que estén en la caja coinciden con los datos de ventas reportados en las tirillas de compra, además del <i>software</i> usado por el establecimiento comercial.
 
     
     
@@ -42,7 +42,7 @@
 
     .row.mb-5
       .col-lg-7(data-aos='slide-right')
-        p.mb-4  Al punto de pago llegan diferentes medios de pago que el cajero debe saber identificar de acuerdo con las características de seguridad indicadas como, por ejemplo, el proceso para autorizar el recibo de cheques, si es que se puede recibir dicho tipo de pago en determinado retail.
+        p.mb-4  Al punto de pago llegan diferentes medios de pago que el cajero debe saber identificar de acuerdo con las características de seguridad indicadas como, por ejemplo, el proceso para autorizar el recibo de cheques, si es que se puede recibir dicho tipo de pago en determinado <i>retail</i>.
         .tarjeta.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -96,7 +96,7 @@
       .col-lg-7    
         p.mb-4(data-aos='slide-up')  Son los bonos ganados por los clientes con el programa de puntos o en su defecto adquiridos como obsequio por terceros (personas y empresas), sus denominaciones suelen ir entre $5.000 y $200.000.
         .cajon.color-secundario.p-4(data-aos='flip-up')
-          .h4  Características de seguridad:
+          .h4  Para recibirlos hay que tener en cuenta que:
           ul.lista-ul
             li
               i.fas.fa-check

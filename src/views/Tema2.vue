@@ -9,17 +9,17 @@
     
     .row.mb-5
       .col-lg-7.slideInLeft
-        p.mb-5  También conocido como cierre de caja, es un método de contabilidad realizado al final del día, después de la jornada de ventas, que se debe realizar obligatoriamente con el fin de saber si el dinero en efectivo, además de otros documentos de pago físicos, concuerdan con el dinero que se reporta de ventas en cada una de las cajas en un retail.
+        p.mb-5  También conocido como cierre de caja, es un método de contabilidad realizado al final del día, después de la jornada de ventas, que se debe realizar obligatoriamente con el fin de saber si el dinero en efectivo, además de otros documentos de pago físicos, concuerdan con el dinero que se reporta de ventas en cada una de las cajas en un <i>retail</i>.
         h3.titulo-tercero 
           i.fas.fa-angle-right 
           | &nbsp;Informe del arqueo
-        p.mb-3  Es el control estricto de ingresos y egresos ocurridos en cada caja del punto de venta, en el retail el proceso de arqueo o cierre de caja, que se desarrolla diariamente, es necesario una formación técnica e integral, de lo contrario se puede convertir en un asunto complejo para los cajeros.
+        p.mb-3  Es el control estricto de ingresos y egresos ocurridos en cada caja del punto de venta, en el <i>retail</i> el proceso de arqueo o cierre de caja, que se desarrolla diariamente, es necesario una formación técnica e integral, de lo contrario se puede convertir en un asunto complejo para los cajeros.
         p.mb-3  Es por esto que el arqueo de caja puede convertirse en un proceso complicado cuando:
       .col-lg-5.slideInLeft
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t2-i1.jpg' alt='imagen decorativa')
 
-
+    p.mb-5  De otro modo, el objetivo principal del arqueo de caja es resguardar el dinero en efectivo existente en las cajas del punto de venta, teniendo en cuenta que el dinero está siempre expuesto al público y por lo tanto, hay facilidad de perderlo, bien sea por robo, fraude o por descuido del cajero en su administración y/o contabilización.  
     SlyderD.mb-5(:datos="datosSlyder")
     .neg-margin-x.bg-curved
       h3.titulo-tercero 
