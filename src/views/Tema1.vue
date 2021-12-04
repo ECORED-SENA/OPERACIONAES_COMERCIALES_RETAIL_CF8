@@ -69,7 +69,7 @@
           img(src='@/assets/curso/t1-i3-1.jpg' alt='imagen decorativa')
       .col-lg-7
         p.mb-3(data-aos='fade-up')  Son órdenes especiales emitidas por la compañía. Este documento lo pueden adquirir los clientes o empresas en los almacenes por diferentes valores ($5.000, $10.000, $20.000, $50.000 u otro monto), son compradas frecuentemente para realizar regalos.
-        p.mb-4(data-aos='fade-up') El cliente debe comprar únicamente mercancía del almacén, su objetivo es generar ventas. En algunos casos se puede devolver en efectivo el 10% del valor de la orden de compra, que es el porcentaje máximo promedio autorizado por las compañías, de $20.000 lo máximo serían $2.000, de $50.000 lo máximo serían $5.000 y así sucesivamente.
+        p.mb-4(data-aos='fade-up') El cliente debe comprar únicamente mercancía del almacén, su objetivo es generar ventas. En algunos casos se puede devolver en efectivo el 10 % del valor de la orden de compra, que es el porcentaje máximo promedio autorizado por las compañías, de $20.000 lo máximo serían $2.000, de $50.000 lo máximo serían $5.000 y así sucesivamente.
         .cajon.color-secundario.p-4(data-aos='flip-up')
           .h4  Características de seguridad:
           ul.lista-ul
@@ -128,7 +128,7 @@
                 img.nW.centered(src='@/assets/curso/t1-ic2.svg' alt='imagen decorativa')
             .col-lg-8
               .bloque-texto-a__texto.p-4.shadow-box
-                p Es un documento valor que el cliente recibe al cambiar un producto que le haya salido defectuoso o por alguna situación adversa y, lo debe utilizar como pago en una nueva compra en el mismo almacén. Puede devolver en efectivo usualmente hasta el <b>10%</b> del valor de la <b>nota cambio</b>, porcentaje máximo autorizado por las compañías.
+                p Es un documento valor que el cliente recibe al cambiar un producto que le haya salido defectuoso o por alguna situación adversa y, lo debe utilizar como pago en una nueva compra en el mismo almacén. Puede devolver en efectivo usualmente hasta el <b>10 %</b> del valor de la <b>nota cambio</b>, porcentaje máximo autorizado por las compañías.
 
 
     h3.titulo-tercero 
@@ -165,7 +165,7 @@
         figure
           img(src='@/assets/curso/t1-i6.jpg' alt='imagen decorativa')
       .col-lg-7
-        p.mb-4  Son productos soportados en empresas como Accor (actualmente Edenred) o Sodexo, entre otras, que normalmente se ofrecen como beneficio adicional a los trabajadores (salarial o no salarial) entregado de forma periódica y cuyo uso es para la compra de productos principalmente alimenticios, así como para otros rubros. Es posible que este modelo de pago migre al 100% digital, a través de tarjetas recargadas directamente a solicitud de los empleadores, como ha sucedido ya en algunos países.
+        p.mb-4  Son productos soportados en empresas como Accor (actualmente Edenred) o Sodexo, entre otras, que normalmente se ofrecen como beneficio adicional a los trabajadores (salarial o no salarial) entregado de forma periódica y cuyo uso es para la compra de productos principalmente alimenticios, así como para otros rubros. Es posible que este modelo de pago migre al 100 % digital, a través de tarjetas recargadas directamente a solicitud de los empleadores, como ha sucedido ya en algunos países.
         .cajon.color-secundario.p-4(data-aos='flip-left')
           .h4 Características de seguridad:
           ul.lista-ul
@@ -345,7 +345,7 @@
         ul.lista-ul
           li
             i.fas.fa-check
-            p.mb-0  Autorizado con tarjeta Cadenalco el 50% de la compra.        
+            p.mb-0  Autorizado con tarjeta Cadenalco el 50 % de la compra.        
           li
             i.fas.fa-check
             p.mb-0  Autorizado por Fenalcheque $20.000.   
@@ -440,7 +440,7 @@
         h4.titulo-cuarto
             i.fas.fa-angle-double-right
             | &nbsp;Cheque de empresa (nómina)
-        p.mb-5  El valor de la compra debe ser mínimo el 10% del valor del cheque, porcentaje establecido por la compañía.
+        p.mb-5  El valor de la compra debe ser mínimo el 10 % del valor del cheque, porcentaje establecido por la compañía.
       .col-lg-4
         figure
           img(src='@/assets/curso/t1-i12.jpg' alt='imagen decorativa')             

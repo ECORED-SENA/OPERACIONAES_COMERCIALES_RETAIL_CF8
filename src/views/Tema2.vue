@@ -32,7 +32,7 @@
         .col-lg-7
           p.mb-4  En todo <i>retail</i> después de recibir pagos en efectivo, cheque, tarjeta de crédito, débito automático o en bonos, empacar mercancía y proporcionar información a los clientes compradores son la base de la jornada laboral en el punto de pago. Cumple su objetivo, responder a las políticas de la organización y en especial el servicio de la atención al cliente.
           .cajon.color-secundario.p-4.mb-4
-            p.mb-0  En el punto de pago o caja no debe quedar nada con relación a dinero en efectivo, bonos, cheques u otros documentos de valor y, toda la gestión de la jornada debe reportarse en el departo de recaudo respectivo en cada <i>retail</i>.
+            p.mb-0  En el punto de pago o caja no debe quedar nada con relación a dinero en efectivo, bonos, cheques u otros documentos de valor y, toda la gestión de la jornada debe reportarse en el departamento de recaudo respectivo en cada <i>retail</i>.
           .tarjeta.color-acento-contenido.p-3.mb-5
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-2
